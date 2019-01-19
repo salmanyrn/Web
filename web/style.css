@@ -1,0 +1,252 @@
+body{
+	background-color	:white;
+	text-align			:center;
+	font-family			:Verdana, Tahoma, Helvetica;
+	font-size			: 12px;
+}
+
+#layout {
+
+		background	:#ffffff;
+		width		:980px;
+		margin		:auto;
+		text-align	:left;
+		padding		:2px;
+}
+#header{
+		width				: 100%;
+		height				: 130px;
+		background-color	: #02a2d8;
+		position			: relative;
+}
+.header {
+	width	: 100%;
+	height	: 130px;
+}
+
+
+
+#menu{
+	width				: 100%;
+	height				: 40px;
+	background-color	: maroon;
+	position			: relative;
+}
+
+#menu ul{
+	margin		:0;
+	padding		:0;
+	list-style	:none;
+}
+
+#menu ul li {
+	float	: left;
+}
+
+#menu ul li a{
+	float			: left;
+	color			: #d4d4d4;
+	padding			: 12px 20px;
+	text-decoration	: none;
+	background		: maroon;
+	border-left		: 1px solid #3c4042;
+	border-right	: 1px solid #3c4042;
+	text-shadow		: 0 -1px 1px rgba(0,0,0,0.6);
+}
+
+#menu ul li a:hover {
+	color			: white;
+	background		: #3c4042;	
+} 
+
+#isi{
+	padding			:6px;
+	width			:100%;
+	height			:140px;
+	margin-bottom	:8px;
+	position		:relative;
+	margin-top		:5px;
+}
+
+.postingan{
+	background-color	:#ffffff;
+	width				:98%;
+	height				:150px;
+	margin-bottom		:7px;
+	padding				:5px;
+}
+
+.depan{
+	float			:left;
+	height			:150px;
+	width			:180px;
+	margin-right	:5px;
+	margin-top		:3px;
+	padding			:1px;
+	border			:1px solid #dddddd;
+}
+
+.posting h2{
+	font-size		:30px;
+	font-weight		:bold;
+	color			:#ffffff;
+	margin-top		:4px;
+	margin-bottom	:3px;
+}
+
+.posting a{
+	text-decoration	:none;
+}
+
+.posting a:hover{
+	color			:#blue;
+}
+
+
+.isiposting{
+	background-color	:#ffffff;
+	width				:99%;
+	height				:auto;
+	margin-bottom		:5px;
+	padding				:5px;
+}
+
+.isiposting h2{
+	text-align			:center;
+	color				:maroon;
+	font-size			:20px;
+	font-weight			:bold;
+}
+
+.gambarposting{
+	width				:230px;
+	height				:250px;
+	float				:right;
+	margin				:10px 5px 5px 10px;
+}
+
+.profil {
+	width				:200px;
+	height				:250px;
+	display				:block;
+	float				:right;
+	padding-right		:5px;
+}
+.profil h2{
+	text-align			:center;
+	color				:maroon;
+	font-size			:20px;
+	font-weight			:bold;
+	
+
+}
+.kontak
+	{
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		background-color:#white;
+		color:#eaeae1;
+	}
+ 
+ @media screen and (max-width: 1080px) {
+	
+	.header,#layout,#header,#menu,#menu ul,#menu li,#menu ul li a,#menu ul li a:hover,#isi,.kontak{
+			width: auto;
+		float: none;
+	}
+	.postingan {
+		width: auto;
+		float: none;
+	}
+	
+	.depan {
+		width: auto;
+		float: none;
+	}
+	
+	.posting h2 {
+		width: auto;
+		float: none;
+	}
+	.posting a {
+		width: auto;
+		float: none;
+	}
+	.posting a:hover{
+		width: auto;
+		float: none;
+	}
+	.isiposting{
+		width: auto;
+		float: none;
+	}
+	.isiposting h2{
+		width: auto;
+		float: none;
+	}
+	.gambarposting{
+		width: auto;
+		float: none;
+	}
+	.profil {
+		width: auto;
+		float: none;
+	}
+	.profil h2{
+		width: auto;
+		float: none;
+	}
+}
+
+@media screen and (max-width: 780px) {
+	.header, #layout,#header,#menu,#menu ul,#menu li,#menu ul li a,#menu ul li a:hover,#isi{
+			width: auto;
+		float: none;
+	}{
+			width: auto;
+		float: none;
+	}
+	.postingan {
+		width: auto;
+		float: none;
+	}
+	
+	.depan {
+		width: auto;
+		float: none;
+	}
+	
+	.posting h2 {
+		width: auto;
+		float: none;
+	}
+	.posting a {
+		width: auto;
+		float: none;
+	}
+	.posting a:hover{
+		width: auto;
+		float: none;
+	}
+	.isiposting{
+		width: auto;
+		float: none;
+	}
+	.isiposting h2{
+		width: auto;
+		float: none;
+	}
+	.gambarposting{
+		width: auto;
+		float: none;
+	}
+	.profil {
+		width: auto;
+		float: none;
+	}
+	.profil h2{
+		width: auto;
+		float: none;
+	}
+}
